@@ -13,8 +13,8 @@ w1 = directory + "/input.txt"
 cnt = 0
 
 #将txt按行读到list
-#f = open(w1,"r",encoding='utf-8')
-f = open("/Users/chendi/Documents/1工作/01公文及PPT模版/test/input.txt","r")
+f = open(w1,"r",encoding='utf-8')
+#f = open("/Users/chendi/Documents/1工作/01模版/test/input.txt","r")
 data = f.readlines()
 data[-1] += "\n"
 data.append("\n")
@@ -72,10 +72,10 @@ def is2BT(str):
         return False
 
 
-#w2 = directory + "/module.docx"
-#newfile = docx.Document(w2)
+w2 = directory + "/module.docx"
+newfile = docx.Document(w2)
 
-newfile = docx.Document("/Users/chendi/Documents/1工作/01公文及PPT模版/test/module.docx")
+#newfile = docx.Document("/Users/chendi/Documents/1工作/01模版/test/module.docx")
 
 
 for p in newfile.paragraphs:
@@ -160,7 +160,9 @@ for i in range(j2+1,length-1):
             str = " " * 38 + data[i][:-1] #前置空格，顶到最右，需手动调整空格
     '''
 
-#w3 = directory + "/{}.docx".format(data[j1][:-1])
-#newfile.save(w3)
+w3 = directory + "/{}.docx".format(data[j1][:-1])
+newfile.save(w3)
 
-newfile.save("/Users/chendi/Desktop/{}.docx".format(data[j1][:-1]))
+#newfile.save("/Users/chendi/Desktop/{}.docx".format(data[j1][:-1]))
+
+print("已生成《{}.docx》".format(data[j1][:-1]))
