@@ -1,50 +1,14 @@
 # AutoDocx程序使用手册
-
----
-
-**目录**
-
----
-
-## 零、程序下载
-
-<aside>
-💡 供2种方式下载，任选其一即可。如需分享，请直接分享此页面或以下2种下载链接。请勿将下载好的程序直接发给同事，以防止病毒感染的可能性。
-
-</aside>
-
-### 下载方式一（直接下载）
-
-[AutoDocx.rar](https://prod-files-secure.s3.us-west-2.amazonaws.com/06136a90-ffc6-419d-aa21-66bd9e59664c/b5e05b8a-3f77-40f1-b1f4-aeac8333a7b3/AutoDocx.rar)
-
-### 下载方式二（机场网盘下载）
-
-[](https://icloud.shairport.com/file/as9pab0vttpurrj0xw9a8131pyi4uogn#)
-
----
-
 ## 一、使用方法（省流）
-
 1. 将需要转换的文本粘贴至`input.txt`。
-
-<aside>
 ⚠️ 请勿对`module.docx`进行任何内容或路径的改动。保证`input.txt`、`module.docx`、`AutoDocx.exe`三个文件在同一目录下。
 
-</aside>
-
-1. 双击`AutoDocx.exe`在当前路径下生成`标题.docx`标准格式公文。
-
-<aside>
+2. 双击`AutoDocx.exe`在当前路径下生成`标题.docx`标准格式公文。
 ⚠️ 程序生成的`标题.docx`可能是一个[只读文件](https://zhuanlan.zhihu.com/p/96568824)，只需另存为一个新文件即可。如无此情况，请忽略此条。
 
-</aside>
-
-1. 请人工复核文件的格式。
-
+3. 请人工复核文件的格式。
 ---
-
 ## 二、详细说明（可以不看）
-
 <aside>
 💡 以下为详细说明，包含各文件的详细用途、注意事项、作用成效，没时间可以不看。
 
@@ -110,16 +74,3 @@
 - **附件**名如较长回行后需手动与上一行附件名称首字对齐
 - **落款**默认顶至最右，需手动微调位置。
 
----
-
-## 三、GitHub开源信息
-
-此项目已在GitHub开源，欢迎进行二次开发及交流：
-
-https://github.com/chendi616/AutoDocx
-
----
-
-## 四、联系方式
-
-如有建议或bug反馈可直接在此页面上comment，或邮件联系开发者`chendi@shairport.com`。
